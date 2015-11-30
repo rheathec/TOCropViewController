@@ -91,7 +91,7 @@
     
     _cancelIconButton = [UIButton buttonWithType:UIButtonTypeSystem];
   [_cancelIconButton setImage:[TOCropToolbar cancelImage] forState:UIControlStateNormal];
-  [_cancelTextButton setTintColor:[UIColor whiteColor]];
+  [_cancelIconButton setTintColor:[UIColor whiteColor]];
     [_cancelIconButton addTarget:self action:@selector(buttonTapped:) forControlEvents:UIControlEventTouchUpInside];
     [self addSubview:_cancelIconButton];
     
